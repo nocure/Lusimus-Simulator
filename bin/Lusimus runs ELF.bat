@@ -1,0 +1,1 @@
+lusimus -e main.elf

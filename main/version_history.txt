@@ -1,0 +1,7 @@
+2018-0821 lusimus 0.1 !!!!
+
+2018-0517 ww0.51 
+	* made the bus read error message shorter.
+
+2018-0531 ww0.52
+	* fixed GDB server protocol about command qTfV/qTsV (query tracepoints) that was orginally unhandled.

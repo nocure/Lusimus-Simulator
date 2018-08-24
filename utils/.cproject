@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject>
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="cdt.managedbuild.config.gnu.mingw.lib.debug.1830179552">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.mingw.lib.debug.1830179552" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+				<externalSettings>
+					<externalSetting>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/utils"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/utils/Debug"/>
+						<entry flags="RESOLVED" kind="libraryFile" name="utils" srcPrefixMapping="" srcRootPath=""/>
+					</externalSetting>
+				</externalSettings>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="a" artifactName="utils" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.staticLib" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.staticLib,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.mingw.lib.debug.1830179552" name="Debug" parent="cdt.managedbuild.config.gnu.mingw.lib.debug">
+					<folderInfo id="cdt.managedbuild.config.gnu.mingw.lib.debug.1830179552." name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.mingw.lib.debug.246697062" name="MinGW GCC" superClass="cdt.managedbuild.toolchain.gnu.mingw.lib.debug">
+							<targetPlatform id="cdt.managedbuild.target.gnu.platform.mingw.lib.debug.1794320679" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.mingw.lib.debug"/>
+							<builder buildPath="${workspace_loc:/utils/Debug}" id="cdt.managedbuild.tool.gnu.builder.mingw.base.585228140" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="CDT Internal Builder" superClass="cdt.managedbuild.tool.gnu.builder.mingw.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.assembler.mingw.lib.debug.1520178285" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.mingw.lib.debug">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.718036762" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.mingw.lib.debug.1091800759" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.mingw.lib.debug"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.lib.debug.403006025" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.lib.debug">
+								<option id="gnu.cpp.compiler.mingw.lib.debug.option.optimization.level.429962977" name="Optimization Level" superClass="gnu.cpp.compiler.mingw.lib.debug.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.mingw.lib.debug.option.debugging.level.91068109" name="Debug Level" superClass="gnu.cpp.compiler.mingw.lib.debug.option.debugging.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.lib.debug.2048584612" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.lib.debug">
+								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.mingw.lib.debug.option.optimization.level.1878750548" name="Optimization Level" superClass="gnu.c.compiler.mingw.lib.debug.option.optimization.level" useByScannerDiscovery="false" valueType="enumerated"/>
+								<option id="gnu.c.compiler.mingw.lib.debug.option.debugging.level.888476247" name="Debug Level" superClass="gnu.c.compiler.mingw.lib.debug.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.max" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.preprocessor.def.symbols.1753199497" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="WIN32_LCD"/>
+								</option>
+								<option id="gnu.c.compiler.option.include.paths.18971039" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="../../utils"/>
+									<listOptionValue builtIn="false" value="../../device"/>
+									<listOptionValue builtIn="false" value="../../bfd/include"/>
+									<listOptionValue builtIn="false" value="../../utils/config"/>
+									<listOptionValue builtIn="false" value="../../device/uart"/>
+									<listOptionValue builtIn="false" value="../../device/net"/>
+									<listOptionValue builtIn="false" value="../../device/lcd"/>
+									<listOptionValue builtIn="false" value="../../memory"/>
+								</option>
+								<option id="gnu.c.compiler.option.dialect.std.1326032152" name="Language standard" superClass="gnu.c.compiler.option.dialect.std" useByScannerDiscovery="true" value="gnu.c.compiler.dialect.default" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.dialect.flags.1449133514" name="Other dialect flags" superClass="gnu.c.compiler.option.dialect.flags" useByScannerDiscovery="true" value="-std=gnu89" valueType="string"/>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1423913112" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.linker.mingw.base.242144031" name="MinGW C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.mingw.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.mingw.base.696143130" name="MinGW C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.mingw.base"/>
+						</toolChain>
+					</folderInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.mingw.lib.debug.1830179552.1745062413" name="cf_regdefs.c" rcbsApplicability="disable" resourcePath="debugger/cf_regdefs.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.mingw.lib.debug.2048584612.2019386162">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.lib.debug.2048584612.2019386162" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.lib.debug.2048584612">
+							<option id="gnu.c.compiler.option.include.paths.729544072" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+								<listOptionValue builtIn="false" value="../../utils"/>
+								<listOptionValue builtIn="false" value="../../device"/>
+								<listOptionValue builtIn="false" value="../../bfd/include"/>
+								<listOptionValue builtIn="false" value="../../utils/config"/>
+								<listOptionValue builtIn="false" value="../../device/uart"/>
+								<listOptionValue builtIn="false" value="../../device/net"/>
+								<listOptionValue builtIn="false" value="../../device/lcd"/>
+							</option>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.334170108" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.mingw.lib.debug.1830179552.1429714729" name="skyeye2gdb.c" rcbsApplicability="disable" resourcePath="debugger/skyeye2gdb.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.mingw.lib.debug.2048584612.1472453523">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.lib.debug.2048584612.1472453523" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.lib.debug.2048584612">
+							<option id="gnu.c.compiler.option.include.paths.625338236" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+								<listOptionValue builtIn="false" value="../../utils"/>
+								<listOptionValue builtIn="false" value="../../device"/>
+								<listOptionValue builtIn="false" value="../../bfd/include"/>
+								<listOptionValue builtIn="false" value="../../utils/config"/>
+								<listOptionValue builtIn="false" value="../../device/uart"/>
+								<listOptionValue builtIn="false" value="../../device/net"/>
+								<listOptionValue builtIn="false" value="../../device/lcd"/>
+								<listOptionValue builtIn="false" value="../../memory"/>
+								<listOptionValue builtIn="false" value="../../arch_arm/common"/>
+							</option>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.873026289" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.mingw.lib.debug.1830179552.917011580" name="bfin_regdefs.c" rcbsApplicability="disable" resourcePath="debugger/bfin_regdefs.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.mingw.lib.debug.2048584612.1794572805">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.lib.debug.2048584612.1794572805" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.lib.debug.2048584612">
+							<option id="gnu.c.compiler.option.include.paths.345842454" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+								<listOptionValue builtIn="false" value="../../utils"/>
+								<listOptionValue builtIn="false" value="../../device"/>
+								<listOptionValue builtIn="false" value="../../bfd/include"/>
+								<listOptionValue builtIn="false" value="../../utils/config"/>
+								<listOptionValue builtIn="false" value="../../arch_bfin/common"/>
+								<listOptionValue builtIn="false" value="../../device/uart"/>
+								<listOptionValue builtIn="false" value="../../device/net"/>
+								<listOptionValue builtIn="false" value="../../device/lcd"/>
+							</option>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.2030639232" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.mingw.lib.debug.1830179552.1793141798" name="ppc_regdefs.c" rcbsApplicability="disable" resourcePath="debugger/ppc_regdefs.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.mingw.lib.debug.2048584612.354046896">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.lib.debug.2048584612.354046896" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.lib.debug.2048584612">
+							<option id="gnu.c.compiler.option.include.paths.1104248638" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+								<listOptionValue builtIn="false" value="../../utils"/>
+								<listOptionValue builtIn="false" value="../../device"/>
+								<listOptionValue builtIn="false" value="../../bfd/include"/>
+								<listOptionValue builtIn="false" value="../../utils/config"/>
+								<listOptionValue builtIn="false" value="../../device/uart"/>
+								<listOptionValue builtIn="false" value="../../device/net"/>
+								<listOptionValue builtIn="false" value="../../device/lcd"/>
+								<listOptionValue builtIn="false" value="../../arch_ppc/common"/>
+							</option>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.402258449" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.mingw.lib.debug.1830179552.660109358" name="arm_regdefs.c" rcbsApplicability="disable" resourcePath="debugger/arm_regdefs.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.mingw.lib.debug.2048584612.372302185">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.lib.debug.2048584612.372302185" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.lib.debug.2048584612">
+							<option id="gnu.c.compiler.option.include.paths.1967091169" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+								<listOptionValue builtIn="false" value="../../utils"/>
+								<listOptionValue builtIn="false" value="../../device"/>
+								<listOptionValue builtIn="false" value="../../bfd/include"/>
+								<listOptionValue builtIn="false" value="../../utils/config"/>
+								<listOptionValue builtIn="false" value="../../device/uart"/>
+								<listOptionValue builtIn="false" value="../../device/net"/>
+								<listOptionValue builtIn="false" value="../../device/lcd"/>
+								<listOptionValue builtIn="false" value="../../memory"/>
+								<listOptionValue builtIn="false" value="../../arch_arm/common"/>
+							</option>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.381317952" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.mingw.lib.debug.1830179552.10895703" name="sparc_regdefs.c" rcbsApplicability="disable" resourcePath="debugger/sparc_regdefs.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.mingw.lib.debug.2048584612.348083565">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.lib.debug.2048584612.348083565" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.lib.debug.2048584612">
+							<option id="gnu.c.compiler.option.include.paths.1943831296" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+								<listOptionValue builtIn="false" value="../../utils"/>
+								<listOptionValue builtIn="false" value="../../device"/>
+								<listOptionValue builtIn="false" value="../../bfd/include"/>
+								<listOptionValue builtIn="false" value="../../utils/config"/>
+								<listOptionValue builtIn="false" value="../../device/uart"/>
+								<listOptionValue builtIn="false" value="../../device/net"/>
+								<listOptionValue builtIn="false" value="../../device/lcd"/>
+							</option>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1025793009" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.mingw.lib.debug.1830179552.1214769659" name="mips_regdefs.c" rcbsApplicability="disable" resourcePath="debugger/mips_regdefs.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.mingw.lib.debug.2048584612.1788440636">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.lib.debug.2048584612.1788440636" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.lib.debug.2048584612">
+							<option id="gnu.c.compiler.option.include.paths.1618621898" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+								<listOptionValue builtIn="false" value="../../utils"/>
+								<listOptionValue builtIn="false" value="../../device"/>
+								<listOptionValue builtIn="false" value="../../bfd/include"/>
+								<listOptionValue builtIn="false" value="../../utils/config"/>
+								<listOptionValue builtIn="false" value="../../arch_mips/common"/>
+								<listOptionValue builtIn="false" value="../../device/uart"/>
+								<listOptionValue builtIn="false" value="../../device/net"/>
+								<listOptionValue builtIn="false" value="../../device/lcd"/>
+							</option>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1449677088" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+					</fileInfo>
+					<folderInfo id="cdt.managedbuild.config.gnu.mingw.lib.debug.1830179552.1084805253" name="/" resourcePath="profile">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.mingw.lib.debug.1209167817" name="MinGW GCC" superClass="cdt.managedbuild.toolchain.gnu.mingw.lib.debug" unusedChildren="">
+							<targetPlatform id="cdt.managedbuild.target.gnu.platform.mingw.lib.debug" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.mingw.lib.debug"/>
+							<tool id="cdt.managedbuild.tool.gnu.assembler.mingw.lib.debug.1466229307" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.mingw.lib.debug.1520178285">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1174048334" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.mingw.lib.debug.525834153" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.mingw.lib.debug.1091800759"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.lib.debug.800683705" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.lib.debug.403006025"/>
+							<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.lib.debug.1685331922" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.lib.debug.2048584612">
+								<option id="gnu.c.compiler.option.include.paths.574692065" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="../../utils"/>
+									<listOptionValue builtIn="false" value="../../device"/>
+									<listOptionValue builtIn="false" value="../../bfd/include"/>
+									<listOptionValue builtIn="false" value="../../utils/config"/>
+									<listOptionValue builtIn="false" value="../../device/uart"/>
+									<listOptionValue builtIn="false" value="../../device/net"/>
+									<listOptionValue builtIn="false" value="../../device/lcd"/>
+									<listOptionValue builtIn="false" value="../../memory"/>
+									<listOptionValue builtIn="false" value="../../arch_arm/common"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.999656190" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.linker.mingw.base.287558702" name="MinGW C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.mingw.base.242144031"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.mingw.base.792769182" name="MinGW C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.mingw.base.696143130"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+			<storageModule moduleId="org.eclipse.cdt.core.language.mapping"/>
+			<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+		</cconfiguration>
+		<cconfiguration id="cdt.managedbuild.config.gnu.mingw.lib.release.1403024766">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.mingw.lib.release.1403024766" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings>
+					<externalSetting>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/utils"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/utils/Release"/>
+						<entry flags="RESOLVED" kind="libraryFile" name="utils" srcPrefixMapping="" srcRootPath=""/>
+					</externalSetting>
+				</externalSettings>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="a" artifactName="utils" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.staticLib" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.staticLib,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.mingw.lib.release.1403024766" name="Release" parent="cdt.managedbuild.config.gnu.mingw.lib.release">
+					<folderInfo id="cdt.managedbuild.config.gnu.mingw.lib.release.1403024766." name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.mingw.lib.release.310325855" name="MinGW GCC" superClass="cdt.managedbuild.toolchain.gnu.mingw.lib.release">
+							<targetPlatform id="cdt.managedbuild.target.gnu.platform.mingw.lib.release.690051395" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.mingw.lib.release"/>
+							<builder buildPath="${workspace_loc:/utils/Release}" id="cdt.managedbuild.tool.gnu.builder.mingw.base.1756582848" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="CDT Internal Builder" superClass="cdt.managedbuild.tool.gnu.builder.mingw.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.assembler.mingw.lib.release.2114374237" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.mingw.lib.release">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.394397353" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.mingw.lib.release.9998518" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.mingw.lib.release"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.lib.release.1059730626" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.lib.release">
+								<option id="gnu.cpp.compiler.mingw.lib.release.option.optimization.level.1843800868" name="Optimization Level" superClass="gnu.cpp.compiler.mingw.lib.release.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.most" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.mingw.lib.release.option.debugging.level.573715393" name="Debug Level" superClass="gnu.cpp.compiler.mingw.lib.release.option.debugging.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.debugging.level.none" valueType="enumerated"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.lib.release.683895382" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.lib.release">
+								<option defaultValue="gnu.c.optimization.level.most" id="gnu.c.compiler.mingw.lib.release.option.optimization.level.1306190090" name="Optimization Level" superClass="gnu.c.compiler.mingw.lib.release.option.optimization.level" useByScannerDiscovery="false" valueType="enumerated"/>
+								<option id="gnu.c.compiler.mingw.lib.release.option.debugging.level.908915886" name="Debug Level" superClass="gnu.c.compiler.mingw.lib.release.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.none" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.preprocessor.def.symbols.1172921317" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" useByScannerDiscovery="false" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="WIN32_LCD"/>
+								</option>
+								<option id="gnu.c.compiler.option.include.paths.1825952067" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="../../utils"/>
+									<listOptionValue builtIn="false" value="../../device"/>
+									<listOptionValue builtIn="false" value="../../bfd/include"/>
+									<listOptionValue builtIn="false" value="../../utils/config"/>
+									<listOptionValue builtIn="false" value="../../device/uart"/>
+									<listOptionValue builtIn="false" value="../../device/net"/>
+									<listOptionValue builtIn="false" value="../../device/lcd"/>
+									<listOptionValue builtIn="false" value="../../memory"/>
+								</option>
+								<option id="gnu.c.compiler.option.dialect.std.8446476" name="Language standard" superClass="gnu.c.compiler.option.dialect.std" useByScannerDiscovery="true" value="gnu.c.compiler.dialect.default" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.dialect.flags.1254238675" name="Other dialect flags" superClass="gnu.c.compiler.option.dialect.flags" useByScannerDiscovery="true" value="-std=gnu89" valueType="string"/>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.425454961" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.linker.mingw.base.492628056" name="MinGW C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.mingw.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.mingw.base.1626187888" name="MinGW C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.mingw.base"/>
+						</toolChain>
+					</folderInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.mingw.lib.release.1403024766.493563160" name="cf_regdefs.c" rcbsApplicability="disable" resourcePath="debugger/cf_regdefs.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.mingw.lib.release.683895382.415971477">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.lib.release.683895382.415971477" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.lib.release.683895382">
+							<option id="gnu.c.compiler.option.include.paths.324593347" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+								<listOptionValue builtIn="false" value="../../utils"/>
+								<listOptionValue builtIn="false" value="../../device"/>
+								<listOptionValue builtIn="false" value="../../bfd/include"/>
+								<listOptionValue builtIn="false" value="../../utils/config"/>
+								<listOptionValue builtIn="false" value="../../device/uart"/>
+								<listOptionValue builtIn="false" value="../../device/net"/>
+								<listOptionValue builtIn="false" value="../../device/lcd"/>
+							</option>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1503584512" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.mingw.lib.release.1403024766.883665050" name="skyeye2gdb.c" rcbsApplicability="disable" resourcePath="debugger/skyeye2gdb.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.mingw.lib.release.683895382.772814258">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.lib.release.683895382.772814258" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.lib.release.683895382">
+							<option id="gnu.c.compiler.option.include.paths.2129055624" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+								<listOptionValue builtIn="false" value="../../utils"/>
+								<listOptionValue builtIn="false" value="../../device"/>
+								<listOptionValue builtIn="false" value="../../bfd/include"/>
+								<listOptionValue builtIn="false" value="../../utils/config"/>
+								<listOptionValue builtIn="false" value="../../device/uart"/>
+								<listOptionValue builtIn="false" value="../../device/net"/>
+								<listOptionValue builtIn="false" value="../../device/lcd"/>
+								<listOptionValue builtIn="false" value="../../memory"/>
+								<listOptionValue builtIn="false" value="../../arch_arm/common"/>
+							</option>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.63057259" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.mingw.lib.release.1403024766.167302709" name="bfin_regdefs.c" rcbsApplicability="disable" resourcePath="debugger/bfin_regdefs.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.mingw.lib.release.683895382.196964847">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.lib.release.683895382.196964847" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.lib.release.683895382">
+							<option id="gnu.c.compiler.option.include.paths.396158443" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+								<listOptionValue builtIn="false" value="../../utils"/>
+								<listOptionValue builtIn="false" value="../../device"/>
+								<listOptionValue builtIn="false" value="../../bfd/include"/>
+								<listOptionValue builtIn="false" value="../../utils/config"/>
+								<listOptionValue builtIn="false" value="../../arch_bfin/common"/>
+								<listOptionValue builtIn="false" value="../../device/uart"/>
+								<listOptionValue builtIn="false" value="../../device/net"/>
+								<listOptionValue builtIn="false" value="../../device/lcd"/>
+							</option>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.2035794245" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.mingw.lib.release.1403024766.1946840821" name="ppc_regdefs.c" rcbsApplicability="disable" resourcePath="debugger/ppc_regdefs.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.mingw.lib.release.683895382.408681882">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.lib.release.683895382.408681882" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.lib.release.683895382">
+							<option id="gnu.c.compiler.option.include.paths.1422602560" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+								<listOptionValue builtIn="false" value="../../utils"/>
+								<listOptionValue builtIn="false" value="../../device"/>
+								<listOptionValue builtIn="false" value="../../bfd/include"/>
+								<listOptionValue builtIn="false" value="../../utils/config"/>
+								<listOptionValue builtIn="false" value="../../device/uart"/>
+								<listOptionValue builtIn="false" value="../../device/net"/>
+								<listOptionValue builtIn="false" value="../../device/lcd"/>
+								<listOptionValue builtIn="false" value="../../arch_ppc/common"/>
+							</option>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.560663783" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.mingw.lib.release.1403024766.1308660682" name="arm_regdefs.c" rcbsApplicability="disable" resourcePath="debugger/arm_regdefs.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.mingw.lib.release.683895382.780747032">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.lib.release.683895382.780747032" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.lib.release.683895382">
+							<option id="gnu.c.compiler.option.include.paths.720949421" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+								<listOptionValue builtIn="false" value="../../utils"/>
+								<listOptionValue builtIn="false" value="../../device"/>
+								<listOptionValue builtIn="false" value="../../bfd/include"/>
+								<listOptionValue builtIn="false" value="../../utils/config"/>
+								<listOptionValue builtIn="false" value="../../device/uart"/>
+								<listOptionValue builtIn="false" value="../../device/net"/>
+								<listOptionValue builtIn="false" value="../../device/lcd"/>
+								<listOptionValue builtIn="false" value="../../memory"/>
+								<listOptionValue builtIn="false" value="../../arch_arm/common"/>
+							</option>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1832567563" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.mingw.lib.release.1403024766.1039428219" name="sparc_regdefs.c" rcbsApplicability="disable" resourcePath="debugger/sparc_regdefs.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.mingw.lib.release.683895382.682109391">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.lib.release.683895382.682109391" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.lib.release.683895382">
+							<option id="gnu.c.compiler.option.include.paths.410222011" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+								<listOptionValue builtIn="false" value="../../utils"/>
+								<listOptionValue builtIn="false" value="../../device"/>
+								<listOptionValue builtIn="false" value="../../bfd/include"/>
+								<listOptionValue builtIn="false" value="../../utils/config"/>
+								<listOptionValue builtIn="false" value="../../device/uart"/>
+								<listOptionValue builtIn="false" value="../../device/net"/>
+								<listOptionValue builtIn="false" value="../../device/lcd"/>
+							</option>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.720809589" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.mingw.lib.release.1403024766.195615045" name="mips_regdefs.c" rcbsApplicability="disable" resourcePath="debugger/mips_regdefs.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.mingw.lib.release.683895382.1069912378">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.lib.release.683895382.1069912378" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.lib.release.683895382">
+							<option id="gnu.c.compiler.option.include.paths.818993746" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+								<listOptionValue builtIn="false" value="../../utils"/>
+								<listOptionValue builtIn="false" value="../../device"/>
+								<listOptionValue builtIn="false" value="../../bfd/include"/>
+								<listOptionValue builtIn="false" value="../../utils/config"/>
+								<listOptionValue builtIn="false" value="../../arch_mips/common"/>
+								<listOptionValue builtIn="false" value="../../device/uart"/>
+								<listOptionValue builtIn="false" value="../../device/net"/>
+								<listOptionValue builtIn="false" value="../../device/lcd"/>
+							</option>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.232608204" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+					</fileInfo>
+					<folderInfo id="cdt.managedbuild.config.gnu.mingw.lib.release.1403024766.401180912" name="/" resourcePath="profile">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.mingw.lib.release.1737219336" name="MinGW GCC" superClass="cdt.managedbuild.toolchain.gnu.mingw.lib.release" unusedChildren="">
+							<targetPlatform id="cdt.managedbuild.target.gnu.platform.mingw.lib.release" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.mingw.lib.release"/>
+							<tool id="cdt.managedbuild.tool.gnu.assembler.mingw.lib.release.12063795" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.mingw.lib.release.2114374237">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.168464561" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.mingw.lib.release.9121503" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.mingw.lib.release.9998518"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.lib.release.242017805" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.lib.release.1059730626"/>
+							<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.lib.release.851080249" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.lib.release.683895382">
+								<option id="gnu.c.compiler.option.include.paths.1345582604" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="../../utils"/>
+									<listOptionValue builtIn="false" value="../../device"/>
+									<listOptionValue builtIn="false" value="../../bfd/include"/>
+									<listOptionValue builtIn="false" value="../../utils/config"/>
+									<listOptionValue builtIn="false" value="../../device/uart"/>
+									<listOptionValue builtIn="false" value="../../device/net"/>
+									<listOptionValue builtIn="false" value="../../device/lcd"/>
+									<listOptionValue builtIn="false" value="../../memory"/>
+									<listOptionValue builtIn="false" value="../../arch_arm/common"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.389793624" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.linker.mingw.base.1826726953" name="MinGW C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.mingw.base.492628056"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.mingw.base.1747216568" name="MinGW C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.mingw.base.1626187888"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.language.mapping"/>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+			<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="utils.cdt.managedbuild.target.gnu.mingw.lib.204100713" name="Static Library" projectType="cdt.managedbuild.target.gnu.mingw.lib"/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.make.core.GCCStandardMakePerProjectProfile"/>
+		<profile id="org.eclipse.cdt.make.core.GCCStandardMakePerProjectProfile">
+			<buildOutputProvider>
+				<openAction enabled="true" filePath=""/>
+				<parser enabled="true"/>
+			</buildOutputProvider>
+			<scannerInfoProvider id="specsFile">
+				<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+				<parser enabled="true"/>
+			</scannerInfoProvider>
+		</profile>
+		<profile id="org.eclipse.cdt.make.core.GCCStandardMakePerFileProfile">
+			<buildOutputProvider>
+				<openAction enabled="true" filePath=""/>
+				<parser enabled="true"/>
+			</buildOutputProvider>
+			<scannerInfoProvider id="makefileGenerator">
+				<runAction arguments="-f ${project_name}_scd.mk" command="make" useDefault="true"/>
+				<parser enabled="true"/>
+			</scannerInfoProvider>
+		</profile>
+		<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfile">
+			<buildOutputProvider>
+				<openAction enabled="true" filePath=""/>
+				<parser enabled="true"/>
+			</buildOutputProvider>
+			<scannerInfoProvider id="specsFile">
+				<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+				<parser enabled="true"/>
+			</scannerInfoProvider>
+		</profile>
+		<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileCPP">
+			<buildOutputProvider>
+				<openAction enabled="true" filePath=""/>
+				<parser enabled="true"/>
+			</buildOutputProvider>
+			<scannerInfoProvider id="specsFile">
+				<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.cpp" command="g++" useDefault="true"/>
+				<parser enabled="true"/>
+			</scannerInfoProvider>
+		</profile>
+		<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC">
+			<buildOutputProvider>
+				<openAction enabled="true" filePath=""/>
+				<parser enabled="true"/>
+			</buildOutputProvider>
+			<scannerInfoProvider id="specsFile">
+				<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.c" command="gcc" useDefault="true"/>
+				<parser enabled="true"/>
+			</scannerInfoProvider>
+		</profile>
+		<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfile">
+			<buildOutputProvider>
+				<openAction enabled="true" filePath=""/>
+				<parser enabled="true"/>
+			</buildOutputProvider>
+			<scannerInfoProvider id="specsFile">
+				<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+				<parser enabled="true"/>
+			</scannerInfoProvider>
+		</profile>
+		<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfileCPP">
+			<buildOutputProvider>
+				<openAction enabled="true" filePath=""/>
+				<parser enabled="true"/>
+			</buildOutputProvider>
+			<scannerInfoProvider id="specsFile">
+				<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.cpp" command="g++" useDefault="true"/>
+				<parser enabled="true"/>
+			</scannerInfoProvider>
+		</profile>
+		<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfileC">
+			<buildOutputProvider>
+				<openAction enabled="true" filePath=""/>
+				<parser enabled="true"/>
+			</buildOutputProvider>
+			<scannerInfoProvider id="specsFile">
+				<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.c" command="gcc" useDefault="true"/>
+				<parser enabled="true"/>
+			</scannerInfoProvider>
+		</profile>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.lib.release.1403024766;cdt.managedbuild.config.gnu.mingw.lib.release.1403024766.;cdt.managedbuild.tool.gnu.c.compiler.mingw.lib.release.683895382;cdt.managedbuild.tool.gnu.c.compiler.input.425454961">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC"/>
+			<profile id="org.eclipse.cdt.make.core.GCCStandardMakePerProjectProfile">
+				<buildOutputProvider>
+					<openAction enabled="true" filePath=""/>
+					<parser enabled="true"/>
+				</buildOutputProvider>
+				<scannerInfoProvider id="specsFile">
+					<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+					<parser enabled="true"/>
+				</scannerInfoProvider>
+			</profile>
+			<profile id="org.eclipse.cdt.make.core.GCCStandardMakePerFileProfile">
+				<buildOutputProvider>
+					<openAction enabled="true" filePath=""/>
+					<parser enabled="true"/>
+				</buildOutputProvider>
+				<scannerInfoProvider id="makefileGenerator">
+					<runAction arguments="-f ${project_name}_scd.mk" command="make" useDefault="true"/>
+					<parser enabled="true"/>
+				</scannerInfoProvider>
+			</profile>
+			<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfile">
+				<buildOutputProvider>
+					<openAction enabled="true" filePath=""/>
+					<parser enabled="true"/>
+				</buildOutputProvider>
+				<scannerInfoProvider id="specsFile">
+					<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+					<parser enabled="true"/>
+				</scannerInfoProvider>
+			</profile>
+			<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileCPP">
+				<buildOutputProvider>
+					<openAction enabled="true" filePath=""/>
+					<parser enabled="true"/>
+				</buildOutputProvider>
+				<scannerInfoProvider id="specsFile">
+					<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.cpp" command="g++" useDefault="true"/>
+					<parser enabled="true"/>
+				</scannerInfoProvider>
+			</profile>
+			<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC">
+				<buildOutputProvider>
+					<openAction enabled="true" filePath=""/>
+					<parser enabled="true"/>
+				</buildOutputProvider>
+				<scannerInfoProvider id="specsFile">
+					<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.c" command="gcc" useDefault="true"/>
+					<parser enabled="true"/>
+				</scannerInfoProvider>
+			</profile>
+			<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfile">
+				<buildOutputProvider>
+					<openAction enabled="true" filePath=""/>
+					<parser enabled="true"/>
+				</buildOutputProvider>
+				<scannerInfoProvider id="specsFile">
+					<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+					<parser enabled="true"/>
+				</scannerInfoProvider>
+			</profile>
+			<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfileCPP">
+				<buildOutputProvider>
+					<openAction enabled="true" filePath=""/>
+					<parser enabled="true"/>
+				</buildOutputProvider>
+				<scannerInfoProvider id="specsFile">
+					<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.cpp" command="g++" useDefault="true"/>
+					<parser enabled="true"/>
+				</scannerInfoProvider>
+			</profile>
+			<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfileC">
+				<buildOutputProvider>
+					<openAction enabled="true" filePath=""/>
+					<parser enabled="true"/>
+				</buildOutputProvider>
+				<scannerInfoProvider id="specsFile">
+					<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.c" command="gcc" useDefault="true"/>
+					<parser enabled="true"/>
+				</scannerInfoProvider>
+			</profile>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.lib.debug.1830179552;cdt.managedbuild.config.gnu.mingw.lib.debug.1830179552.;cdt.managedbuild.tool.gnu.c.compiler.mingw.lib.debug.2048584612;cdt.managedbuild.tool.gnu.c.compiler.input.1423913112">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC"/>
+			<profile id="org.eclipse.cdt.make.core.GCCStandardMakePerProjectProfile">
+				<buildOutputProvider>
+					<openAction enabled="true" filePath=""/>
+					<parser enabled="true"/>
+				</buildOutputProvider>
+				<scannerInfoProvider id="specsFile">
+					<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+					<parser enabled="true"/>
+				</scannerInfoProvider>
+			</profile>
+			<profile id="org.eclipse.cdt.make.core.GCCStandardMakePerFileProfile">
+				<buildOutputProvider>
+					<openAction enabled="true" filePath=""/>
+					<parser enabled="true"/>
+				</buildOutputProvider>
+				<scannerInfoProvider id="makefileGenerator">
+					<runAction arguments="-f ${project_name}_scd.mk" command="make" useDefault="true"/>
+					<parser enabled="true"/>
+				</scannerInfoProvider>
+			</profile>
+			<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfile">
+				<buildOutputProvider>
+					<openAction enabled="true" filePath=""/>
+					<parser enabled="true"/>
+				</buildOutputProvider>
+				<scannerInfoProvider id="specsFile">
+					<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+					<parser enabled="true"/>
+				</scannerInfoProvider>
+			</profile>
+			<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileCPP">
+				<buildOutputProvider>
+					<openAction enabled="true" filePath=""/>
+					<parser enabled="true"/>
+				</buildOutputProvider>
+				<scannerInfoProvider id="specsFile">
+					<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.cpp" command="g++" useDefault="true"/>
+					<parser enabled="true"/>
+				</scannerInfoProvider>
+			</profile>
+			<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC">
+				<buildOutputProvider>
+					<openAction enabled="true" filePath=""/>
+					<parser enabled="true"/>
+				</buildOutputProvider>
+				<scannerInfoProvider id="specsFile">
+					<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.c" command="gcc" useDefault="true"/>
+					<parser enabled="true"/>
+				</scannerInfoProvider>
+			</profile>
+			<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfile">
+				<buildOutputProvider>
+					<openAction enabled="true" filePath=""/>
+					<parser enabled="true"/>
+				</buildOutputProvider>
+				<scannerInfoProvider id="specsFile">
+					<runAction arguments="-E -P -v -dD ${plugin_state_location}/${specs_file}" command="gcc" useDefault="true"/>
+					<parser enabled="true"/>
+				</scannerInfoProvider>
+			</profile>
+			<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfileCPP">
+				<buildOutputProvider>
+					<openAction enabled="true" filePath=""/>
+					<parser enabled="true"/>
+				</buildOutputProvider>
+				<scannerInfoProvider id="specsFile">
+					<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.cpp" command="g++" useDefault="true"/>
+					<parser enabled="true"/>
+				</scannerInfoProvider>
+			</profile>
+			<profile id="org.eclipse.cdt.managedbuilder.core.GCCWinManagedMakePerProjectProfileC">
+				<buildOutputProvider>
+					<openAction enabled="true" filePath=""/>
+					<parser enabled="true"/>
+				</buildOutputProvider>
+				<scannerInfoProvider id="specsFile">
+					<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.c" command="gcc" useDefault="true"/>
+					<parser enabled="true"/>
+				</scannerInfoProvider>
+			</profile>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="refreshScope"/>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+</cproject>

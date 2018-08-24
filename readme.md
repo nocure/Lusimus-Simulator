@@ -61,7 +61,7 @@ All Packages:
  * MinGW -> MinGW Base System -> mingw32-binutils-dev
 
 And the missing lib "iberty", download it manually:
- * [Download page](https://sourceforge.net/projects/mingw/files/MinGW/Base/binutils/binutils-2.28/ "Download libiberty) on SourceForge  
+ * [Download page](https://sourceforge.net/projects/mingw/files/MinGW/Base/binutils/binutils-2.28/ Download libiberty) on SourceForge  
 	File name: **libiberty-2.28-1-mingw32-dev.tar.xz**  
 	Extract content into mingw root directory (e.g. C:\MinGW).
 

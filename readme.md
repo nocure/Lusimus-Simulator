@@ -16,5 +16,5 @@ There was no instructions about how to compile it and how to setup the environme
 
 The linking was another big chanllange too, thousands of conflicts and undefined calls with system libs and its own ones. That took me another sleepless 7 nights and days, finally, I was reborned. You can be reborned too, just take original source package and try it out.
 
-You know, <s>I thought I¡@have seen Linux Kernel source codes,</s> I thought I have seen enough in 30 years as a professional, Life never stops scares me from time to time. I Can't imagine how and why a <s>good</s> avarage programmer can endure such hugh amount of compiler warnings, and yet still consider the state is a release to be. I have came throught the long and winding road, so you don't have to be in hell and burned for 14 days (at least).
+You know, ~~I thought I have seen Linux Kernel source codes,~~ I thought I have seen enough in 30 years as a professional, Life never stops scares me from time to time. I Can't imagine how and why a ~~good~~ avarage programmer can endure such hugh amount of compiler warnings, and yet still consider the state is a release to be. I have came throught the long and winding road, so you don't have to be in hell and burned for 14 days (at least).
 

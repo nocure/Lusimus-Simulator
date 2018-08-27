@@ -1,9 +1,12 @@
 # Lusimus
 A fork of SkyEye 1.2.8 rc1. Lusimus is a total system simulator for Windows 7/8/10
 
-look!!! It's real!!! 
+look!!! It's real!!!
 
 <img src='images/shot_in_action_1.png' width=960>
+
+There are pre-built binaries in **bin** directory, you can run **bin\Lusimus runs ELF.bat** to load a ARM demo program into Lusimus.  
+The demo program **Unarmed** is here at [nocure / unarmed](https://github.com/nocure/unarmed) too.
 
 Currently stable simulating an s3c2440 demo board only, the one that I am sure of to work as expected. As you can see in the image above, it simulates an LCD, an UART console via TELNET protocol. It is equipped with a GDB server, capable of source-level single-step debugging with breakpoint, variable and memory access in Eclipse CDT environment with GNU MCU (Previously GNU ARM) Eclipse plugin. 
 
@@ -12,7 +15,7 @@ This ancient work has been lying in hard disk for years. Since it was taken from
 SkyEye 1.2.8 rc2 is the only version I can make it work, don't bother with later versions, the simulating routing are strangely commented out in later versions. It seems that they were made intentionally not to work, and there were changes in about half of source files. Since my version worked so I did'nt care about newer ones. The SkyEye project on SourceForge is deserted anyway, it hasn't been updated for years. 
 
 The original SkyEye can be obtained here <a>https://sourceforge.net/projects/skyeye/</a>.  
-Said on the project page, It can simulate series ARM, Coldfire,Mips, Powerpc, Sparc, x86, TI DSP and Blackfin DSP Processor. I believe the creator of SkyEye took a bit of Armulator, a bit of this, a bit of that, and more bits of something from somewhere, then assemble them together like...like... Frankenstein. It seems all there alright, A lot of unfinished, unworkable codes in every components in every code file that makes it impossible to do any of them at all. The only configuration that I was able to bring up is s3c2410, but still it randomly crashed after runing few instructions every time I try to launch anything.
+Said on the project page, It can simulate series ARM, Coldfire, Mips, Powerpc, Sparc, x86, TI DSP and Blackfin DSP Processor. I believe the creator of SkyEye took a bit of Armulator, a bit of this, a bit of that, and more bits of something from somewhere, then assembled them together like...like... Frankenstein. It seems all there alright, A lot of unfinished, unworkable codes in every components in every code file that makes it impossible to do any of them at all. The only configuration that I was able to bring up is s3c2410, but still it randomly crashed after runing few instructions every time I try to launch anything.
 
 There was no instruction about how to compile it and how to setup the environment for the job, so when I tried to compile it for the first time, results were thousands of errors and warnings. I fixed them one by one, every single one of them, took me 7 days and 7 nights to get it done, literally!!! Unused and set but unused variables were easy parts, just went through each source file(about 1 thousand) to take them out, more were ambiguous expressions, oblivious wrong mathematic calculations, confusing condition expresions, missing parentheses, symbols redefined with different values...(the list is quite long, so I'll just stop here).
 

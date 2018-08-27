@@ -1,7 +1,7 @@
 # Lusimus
 A fork of SkyEye 1.2.8 rc1. Lusimus is a total system simulator for Windows 7/8/10
 
-look!!! It's real!!! 
+look!!! It's real!!! You can run **bin\Lusimus runs ELF.bat** to load a ARM demo program into Lusimus.
 
 <img src='images/shot_in_action_1.png' width=960>
 

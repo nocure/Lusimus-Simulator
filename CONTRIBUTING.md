@@ -1,1 +1,1 @@
-All is welcomed.
+All are welcome.

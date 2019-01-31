@@ -21,6 +21,8 @@
 #include <stdio.h>
 #include <string.h>
 #include <sys/file.h>
+#include <stdio.h>
+
 
 #ifdef __BEOS__
 #include <BeBuild.h>
@@ -66,7 +68,9 @@
 #undef DEBUG_RDI
 //#define DEBUG_RDI
 #ifdef DEBUG_RDI
-#define	DBG_RDI(args...) printf(args)
+// ww 2019-0108 modified: use fprintf to stderr instead.
+//#define	DBG_RDI(args...) printf(args)
+#define	DBG_RDI(args...) fprintf(stderr,args)
 #else
 #define DBG_RDI(args...)
 #endif
@@ -1083,7 +1087,7 @@ int sim_debug(int port) {
 				/* It is a request we don't understand.  Respond with an
 				 empty packet so that gdb knows that we don't support this
 				 request.  */
-				DBG_RDI(stderr,"unknown command: %c\n",ch);
+				DBG_RDI("unknown command: %c\n",ch);
 				own_buf[0] = '\0';
 				break;
 			}

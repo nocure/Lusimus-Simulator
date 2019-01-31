@@ -75,5 +75,5 @@ And the missing lib "iberty", download it manually:
 
 When the environment is properly set up, after geting complete project files from github, you can create a workspace in the projects root directory within Eclipse, import each projects in the workspace, and build all lib projects, build main project last, then you are done.
  
-Well, That all for now.
+Well, That's all for now.
  

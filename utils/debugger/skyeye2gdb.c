@@ -43,19 +43,25 @@ int bigendSig;
 int stop_simulator = 0;
 int debugmode = 0;
 
+
+// 2019-0416 ww modified: make sure gcc understands that memory is unsigned, so no unexpected or lost bits during shifting
 int
 frommem (char *memory)
 {
+unsigned char *m=(unsigned char*)memory;	// 2019-0416 ww added
+
 	bigendSig = current_reg_type->endian_flag;
 	if (bigendSig == HIGH) {
-		return (memory[0] << 24)
-			| (memory[1] << 16) | (memory[2] << 8) | (memory[3] <<
-								  0);
+		return	(m[0] << 24)
+			|	(m[1] << 16)
+			|	(m[2] << 8)
+			|	(m[3] << 0);
 	}
 	else {
-		return (memory[3] << 24)
-			| (memory[2] << 16) | (memory[1] << 8) | (memory[0] <<
-								  0);
+		return	(m[3] << 24)
+			|	(m[2] << 16)
+			|	(m[1] << 8)
+			|	(m[0] << 0);
 	}
 }
 

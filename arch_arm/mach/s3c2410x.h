@@ -272,7 +272,7 @@ struct s3c2410x_timer_io
 	int tcmp[S3C2410_TIMER_NUM];
 	int tcntb[S3C2410_TIMER_NUM];
 	int tcmpb[S3C2410_TIMER_NUM];
-	int tcnto[S3C2410_TIMER_NUM];
+//	int tcnto[S3C2410_TIMER_NUM];
 };
 
 struct s3c2410x_uart_io

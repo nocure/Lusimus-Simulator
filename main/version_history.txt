@@ -1,3 +1,13 @@
+2019-0416
+	* fixed skyeye2gdb.c:48 frommem(), fixed conversion error.
+
+2019-0201
+	* fixed skyeye_mach_s3c2410x.c:404, to use correct timer counter value, originally was 25350 / 20;
+	* skyeye_mach_s3c2410x.c:188 s3c2410x_io_do_cycle() made timer & uart generate interrupt at the same time. it was one or another.
+	* according to memory/io.c:71, It does io once every 50 instructions.
+	* s3c2410x.h:175, delete tcnto, this register should read from tcnt directly (skyeye_mach_s3c2410x.c:370)
+
+
 2018-0821 lusimus 0.1 !!!!
 
 2018-0517 ww0.51 

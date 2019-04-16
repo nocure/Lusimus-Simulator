@@ -190,16 +190,16 @@ s3c2410x_io_do_cycle (void * state)
 	int i;
 
 	if ((io.timer.tcon & 0x100000) != 0) {
-		// ww: modified to -10 to increase timer speed more close to real time, was -1 only.
+
 		io.timer.tcnt[4]--;
 		if (io.timer.tcnt[4] < 0) {
 			io.timer.tcnt[4] = io.timer.tcntb[4];
 			/*timer 4 hasn't tcmp */
 			//io.timer.tcmp[4] = io.timer.tcmpb[4];
-			io.timer.tcnto[4] = io.timer.tcntb[4];
+//			io.timer.tcnto[4] = io.timer.tcntb[4];
 			io.srcpnd |= INT_TIMER4;
-			s3c2410x_update_int (state);
-			return;
+//			s3c2410x_update_int (state);
+//			return;
 		}
 	}
 
@@ -223,11 +223,11 @@ s3c2410x_io_do_cycle (void * state)
 				 * */
 				s3c2410x_set_subsrcint (UART_INT_RXD << (i * 3));
 				//io.srcpnd |= INT_UART0;
-				s3c2410x_update_int (state);
+//				s3c2410x_update_int (state);
 			}
 		}
 	}
-	//s3c2410x_update_int (state);
+	s3c2410x_update_int (state);
 }
 
 
@@ -364,13 +364,11 @@ s3c2410x_timer_read (u32 offset, u32 * data)
 	case TCNTO1:
 	case TCNTO2:
 	case TCNTO3:
+	case TCNTO4:
 		{
 			int n = (offset - 0x10) / 0xC;
-			*data = io.timer.tcnto[n];
+			*data = io.timer.tcnt[n];
 		}
-		break;
-	case TCNTO4:
-		*data = io.timer.tcnt[4];
 		break;
 	default:
 		break;
@@ -401,9 +399,9 @@ s3c2410x_timer_write (ARMul_State * state, u32 offset, u32 data)
 	case TCNTB4:
 		{
 			int n = (offset - 0xC) / 0xC;
-			//io.timer.tcntb[n] = data;
+			io.timer.tcntb[n] = data;
 			/* temp data taken from linux source */
-			io.timer.tcntb[n] = 25350 / 20;
+//			io.timer.tcntb[n] = 25350 / 20;
 		}
 		break;
 	case TCMPB0:

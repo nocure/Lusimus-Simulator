@@ -39,7 +39,7 @@
 #endif
 
 #define PROGRAM_NICK_NAME "Lusimus"
-#define PROGRAM_REAL_NAME "Lusimus 0.1"
+#define PROGRAM_REAL_NAME "Lusimus 0.1.2"
 
 /* we place bfd library into our svn, so we always have bfd library available. */
 #define HAVE_LIBBFD 1
